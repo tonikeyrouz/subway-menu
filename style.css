@@ -11,15 +11,11 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .logo {
-
     width: 200px;
-    
-    
 }
 
 body { 
@@ -35,13 +31,8 @@ a {
     text-decoration: none;
     color: inherit;
     transition: color 0.3s;
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
-
-
-
-
 
 a.nav {
     padding: 5px 10px;
@@ -63,7 +54,42 @@ a.nav:hover {
     text-align: left;
 
     color:white;
+
+    font-family: 'Bubblegum Sans', sans-serif;
     font-weight: 600;
     font-size: 30px;
 
+}
+
+section {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+section .category {
+    
+    border: 3px solid lightgray;
+    padding: 20px;
+    transition: transform 0.5s, box-shadow 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.42);
+}
+
+
+.category img {
+  width: 400px;
+  
+ 
+}
+
+section .category:hover {
+  transform: scale(1.02);
+}
+
+.category h3 {
+  margin-top: 12px;
 }
